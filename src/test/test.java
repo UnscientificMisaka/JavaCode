@@ -1,32 +1,11 @@
 package test;
-//
-//import java.util.ArrayList;
-//import java.util.List;
-//
-//public class test {
-//	
-//
-//	
-//	
-//	public static void handle(String[] n){
-//		for(int i = 0;i<n.length;i++){
-//			char[] number = n[i].toCharArray();
-//			char a = number[0];
-//			char b = number[1];
-//			char c = number[2];
-//			char d = number[3];
-//			System.out.println(a==b);
-//			System.out.println(a=='2');
-//			System.out.println(a-1);
-//			System.out.println(a+"");
-//			System.out.println(Integer.parseInt(String.valueOf(a)));
-//			System.out.println(a-'0');
-//			System.out.println(a - 48);
-//			
-//			
-//			
-//		}
-//	}
+
+import java.util.Scanner;
+
+public class test {
+	
+
+	
 //	
 ////	小明同学把1到n这n个数字按照一定的顺序放入了一个队列Q中。现在他对队列Q执行了如下程序：
 ////	while(!Q.empty())              //队列不空，执行循环
@@ -70,20 +49,77 @@ package test;
 ////	8 1 6 2 10 3 7 4 9 5
 //	
 //	
-//    public static void main(String[] args){  
-//        List <int []> list = new ArrayList<int []>();
-//        int[] data = new int[3];
-//        for(int i = 0;i<3;i++){
-//        	data[i] = i;
-//        }
-//        list.add(data);
-//        int[] result = list.get(0);
-//        for(int i=0;i<result.length;i++){
-//        	System.out.println(result[i]);
-//        }
-//    }  
-//	
-//
-//}
-//
-//
+    public static void main(String[] args){  
+    	Scanner scan = new Scanner(System.in);
+    	String str1 = scan.nextLine();
+    	String str2 = scan.nextLine();
+    	char[] res1 = str1.toCharArray();
+    	char[] res2 = str2.toCharArray();
+//    	for(int i = 0;i<res1.length;i++){
+//    		System.out.println(i+":"+res1[i]);
+//    	}
+//    	for(int i = 0;i<res2.length;i++){
+//    		System.out.println(res2[i]);
+//    	}
+//    	char a;
+//    	System.out.println(Character.isSpace(res1[0]));
+    	int m = 0;
+    	int n = 0;
+    	int count = 0;
+    	if(m>n){
+    		while(m<res1.length&&n<res2.length){
+    			while(Character.isSpace(res2[n])){
+    				n++;
+    			}
+    			while(Character.isSpace(res1[m])){
+    				m++;
+    			}
+    			
+        		if(res1[m]==res2[n]&&!Character.isSpace(res1[m])){
+        			count++;
+        			m++;
+        			n++;
+        		}else{
+        			if(Character.isSpace(res1[m])){	
+    					m++;
+    					n--;
+    				}
+        			n++;
+        		}
+
+    			
+        	}
+    	}else if(m<=n){
+    		while(m<res1.length&&n<res2.length){
+    			while(Character.isSpace(res2[n])){
+    				n++;
+    			}
+    			while(Character.isSpace(res1[m])){
+    				m++;
+    			}
+    	
+
+    			if(res1[m]==res2[n]&&!Character.isSpace(res1[m])){
+        			count++;			
+        			m++;
+        			n++;
+        		}else{
+        			if(Character.isSpace(res2[n])&&Character.isSpace(res2[n])){	
+        				count = 0;
+    				}
+        			m++;
+        		}
+        	}
+    		
+    	}
+    	
+    	System.out.println(count);
+    
+    	
+    	
+    }  
+	
+
+}
+
+
