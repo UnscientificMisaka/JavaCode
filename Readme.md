@@ -13,5 +13,7 @@
 8. [求整除个数](./src/ExactDivision/test.java) 裸暴在规定时间内通不过测试用例，调整到可以被整除的位置按除数步长再暴力
 9. [最大差值](./src/Maximus/test.java) 初做完全想多了，蠢得用递归而且没完全通过测试用例，高分代码十几行贪心简直完美
 10. [构造队列](./src/QueueOrder/test.java) 逆向思维推导或观察规律，但在限定时间内做不出来...
+11. [组成三角形方法数](./src/AssemblyTriangle/test.java) 蛮简单
+12. [最小矩形面积](./src/TheSmallestRectangle/test.java) 同样暴力
 
 持续更新中...
