@@ -16,5 +16,6 @@
 11. [组成三角形方法数](./src/AssemblyTriangle/test.java) 蛮简单
 12. [最小矩形面积](./src/TheSmallestRectangle/test.java) 同样暴力
 13. [平衡数](./src/BalanceNumber/test.java)
+14. [全排列算法](./src/PokerOrder/test.java) 交换再递归有点绕脑子...
 
 持续更新中...
