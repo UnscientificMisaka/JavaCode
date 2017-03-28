@@ -15,5 +15,6 @@
 10. [构造队列](./src/QueueOrder/test.java) 逆向思维推导或观察规律，但在限定时间内做不出来...
 11. [组成三角形方法数](./src/AssemblyTriangle/test.java) 蛮简单
 12. [最小矩形面积](./src/TheSmallestRectangle/test.java) 同样暴力
+13. [平衡数](./src/BalanceNumber/test.java)
 
 持续更新中...

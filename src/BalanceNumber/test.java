@@ -28,30 +28,20 @@ public class test {
 		if(a.length<2){
 			return false;
 		}
-		if(a.length == 2){
-			if(a[0] == a[1]){
-				return true;
-			}else{
-				return false;
-			}
-		}
 		int[] b = new int[a.length];
 		for(int i = 0;i<a.length;i++){
 			b[i] = a[i] - '0';
 		}
-		int left = b[0];
-		int right = b[1];
+		int left,right;
 		boolean flag = true;
-		for(int i = 0;i<b.length-1;i++){
-				left = left * b[i+1];
-			if(i == b.length-2){
-				right = b[b.length-1];
-			}else{
-				for(int p = i+1;p<b.length-1;p++){
-					System.out.println("right的值是  "+right);
-//					System.out.println("right下一个的值是  "+b[p+1]);
-					right = right * b[p+1];
-				}
+		for(int i = 0;i<b.length;i++){
+			left = 1;
+			right = 1;
+			for(int m = 0;m<i;m++){
+				left = left * b[m];
+			}
+			for(int j = i;j<b.length;j++){
+				right = right * b[j];	
 			}
 			
 			System.out.println(left+"  "+right);
@@ -59,11 +49,14 @@ public class test {
 				return true;
 			}else{
 				flag = false;
-				right = b[i+1];
-				System.out.println("后"+right);
 			}
-			
 		}
+		
+		
+			
+		
+			
+		
 		return flag;
 	}
 	
