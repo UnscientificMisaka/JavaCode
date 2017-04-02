@@ -15,7 +15,8 @@
 10. [构造队列](./src/QueueOrder/test.java) 逆向思维推导或观察规律，但在限定时间内做不出来...
 11. [组成三角形方法数](./src/AssemblyTriangle/test.java) 蛮简单
 12. [最小矩形面积](./src/TheSmallestRectangle/test.java) 同样暴力
-13. [平衡数](./src/BalanceNumber/test.java)
+13. [平衡数](./src/BalanceNumber/test.java) 没啥好说的
 14. [全排列算法](./src/PokerOrder/test.java) 交换再递归有点绕脑子...
+15. [字符串分类](./src/ClassifyString/test.java) 栽在了错误的思路上，把字符串转ascii码再丢hash去重忘记考虑有不一样但ascii和相等的情况了
 
 持续更新中...
