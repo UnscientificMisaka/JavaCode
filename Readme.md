@@ -16,7 +16,8 @@
 11. [组成三角形方法数](./src/AssemblyTriangle/test.java) 蛮简单
 12. [最小矩形面积](./src/TheSmallestRectangle/test.java) 同样暴力
 13. [平衡数](./src/BalanceNumber/test.java) 没啥好说的
-14. [全排列算法](./src/PokerOrder/test.java) 交换再递归有点绕脑子...
+14. [全排列算法](./src/PokerSequence/test.java) 交换再递归有点绕脑子...
 15. [字符串分类](./src/ClassifyString/test.java) 栽在了错误的思路上，把字符串转ascii码再丢hash去重忘记考虑有不一样但ascii和相等的情况了
+16. [调整奇数偶数顺序](./src/SetArrayItemProcedure/test.java) 想了很多但觉得能以空间换时间的事情就懒得思考了，觉得没必要上各种排序算法，申请个ArrayList就可以了。
 
 持续更新中...
