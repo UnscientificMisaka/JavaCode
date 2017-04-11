@@ -22,6 +22,7 @@
 17. [打印链表倒数第k个节点](./scr/InvertedNode/test.java) 先遍历一遍长度再走到第n-k+1个节点或者用栈?
 18. [合并链表](./src/MergeLinkedList/Main.java) 递归和非递归实现，这题递归开销测试时好像更小
 19. [TwoSum](./src/TwoSum/Main.java) 首先还是想到暴力所有值匹配...心疼抱抱自己
+20. [树的子结构](./src/TreeSubstructure/Main.java) 多写了个else,逻辑出现严重漏洞
 
 
 持续更新中...
