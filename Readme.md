@@ -18,7 +18,7 @@
 13. [平衡数](./src/BalanceNumber/test.java) 没啥好说的
 14. [全排列算法](./src/PokerSequence/test.java) 交换再递归有点绕脑子...
 15. [字符串分类](./src/ClassifyString/test.java) 栽在了错误的思路上，把字符串转ascii码再丢hash去重忘记考虑有不一样但ascii和相等的情况了
-16. [调整奇数偶数顺序](./src/SetArrayItemProcedure/test.java) 想了很多但觉得能以空间换时间的事情就懒得思考了，觉得没必要上各种排序算法，申请个ArrayList就可以了
+16. [调整奇数偶数顺序](./src/SetArrayItemProcedure/test.java) 想了很多但觉得能以空间换时间的事情就懒得思考了，觉得没必要上各种排序算法，申请个ArrayList就可以了。 17.4.12 update：更新不申请空间的解法，注意交换后数组要整体移动以确保顺序未变
 17. [打印链表倒数第k个节点](./scr/InvertedNode/test.java) 先遍历一遍长度再走到第n-k+1个节点或者用栈?
 18. [合并链表](./src/MergeLinkedList/Main.java) 递归和非递归实现，这题递归开销测试时好像更小
 19. [TwoSum](./src/TwoSum/Main.java) 首先还是想到暴力所有值匹配...心疼抱抱自己

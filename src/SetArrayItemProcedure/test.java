@@ -21,13 +21,39 @@ public class test {
 		}
 		for(int i = 0;i<array.length;i++){
 			array[i] = res.get(i);
+			System.out.print(array[i]+" ");
 		}
+		
+	}
+	
+	public void reOrder2(int[] array){
+		int i = 0;
+		for(int j = 0;j<array.length;j++){
+			if(array[j]%2 != 0){
+				if(i != j){
+					int tmp = array[i];
+					array[i] = array[j];
+					for(int k = j;k>i+1;k--){
+						array[k] = array[k-1];
+					}
+					array[i+1] = tmp;
+				}
+				i++;
+			}
+		}
+	
+		
 		
 	}
 	
 	public static void main(String[] args){
 		int[] array = {2,4,6,1,3,5,7};
 		test t = new test();
-		t.reOrder(array);
+		t.reOrder2(array);
+		for(int i = 0;i<array.length;i++){
+			System.out.print(array[i] + " ");
+		}
+		
 	}
 }
+

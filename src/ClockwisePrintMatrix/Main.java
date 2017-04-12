@@ -35,7 +35,6 @@ public class Main {
 			for(int m = i+1;m<row;m++){
 				res.add(matrix[m][column-1]);
 			}
-			System.out.println("row:"+row +" i:"+i);
 			for(int n = column-2;n>=i&&(row-i != 1);n--){
 				res.add(matrix[row-1][n]);
 			}
