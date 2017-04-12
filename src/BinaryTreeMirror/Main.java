@@ -1,5 +1,7 @@
 package BinaryTreeMirror;
 
+import java.util.Stack;
+
 //操作给定的二叉树，将其变换为源二叉树的镜像。 
 //输入描述:
 //二叉树的镜像定义：源二叉树 
@@ -41,9 +43,9 @@ public class Main {
 			return;
 		}
 		
-//		if(root.left == null && root.right == null){
-//			return;
-//		}
+		if(root.left == null && root.right == null){
+			return;
+		}
 		
 		TreeNode tmp = null;
 		tmp = root.left;
@@ -55,6 +57,11 @@ public class Main {
 		if(root.right != null){
 			Mirror(root.right);
 		}
+	}
+	
+	public void useStackMirror(TreeNode root){
+		Stack<Integer> stack = new Stack<Integer>();
+		
 	}
 	
 	public static void main(String[] args){
