@@ -25,6 +25,9 @@
 20. [树的子结构](./src/TreeSubstructure/Main.java) 多写了个else,逻辑出现严重漏洞
 21. [镜像二叉树](./src/BinaryTreeMirror/Main.java) 回头补上非递归版本
 22. [顺时针打印矩阵](./src/ClockwisePrintMatrix/Main.java) 我竟然码了好久...哭
+23. [包含min函数的栈](./src/StackWithGetMinFunction/Main.java)
+24. [根据栈压入序列判断弹出序列](./src/IsPopOrder/Main.java)
+25. [按层打印二叉树](./src/PrintBinaryTreeByLayer/Main.java) 没过测试用例，根节点为空返回空，我让它返回null了
 
 
 持续更新中...
