@@ -28,6 +28,7 @@
 23. [包含min函数的栈](./src/StackWithGetMinFunction/Main.java)
 24. [根据栈压入序列判断弹出序列](./src/IsPopOrder/Main.java)
 25. [按层打印二叉树](./src/PrintBinaryTreeByLayer/Main.java) 没过测试用例，根节点为空返回空，我让它返回null了
+26. [后序遍历序列判断搜索树](./src/IsBinarySearchTree/Main.java)
 
 
 持续更新中...
