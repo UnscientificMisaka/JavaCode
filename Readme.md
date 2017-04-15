@@ -29,6 +29,7 @@
 24. [根据栈压入序列判断弹出序列](./src/IsPopOrder/Main.java)
 25. [按层打印二叉树](./src/PrintBinaryTreeByLayer/Main.java) 没过测试用例，根节点为空返回空，我让它返回null了
 26. [后序遍历序列判断搜索树](./src/IsBinarySearchTree/Main.java)
+27. [二叉树中和为某值的路径](./src/BinaryTreePath/Main.java) 看了参考答案...唉
 
 
 持续更新中...

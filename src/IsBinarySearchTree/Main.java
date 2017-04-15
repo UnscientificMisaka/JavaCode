@@ -11,43 +11,32 @@ public class Main {
 		if(sequence.length == 0 || sequence == null){
 			return false;
 		}
-		int root = sequence[sequence.length-1];
-		int[] arr = Arrays.copyOf(sequence,sequence.length-1);
-		int min = arr.length;
-		for(int i = 0;i<arr.length;i++){
-			if(arr[i]>root){
-				min = i;			
+		return judge(sequence,0,sequence.length - 1);
+	}
+	
+	public boolean judge(int[] arr,int start,int end){
+		if(end <= start){
+			return true;
+		}
+		int i = start;
+		for(;i < end;i++){
+			if(arr[i]>arr[end]){
 				break;
 			}
 		}
-		
-		for(int i = min;i<arr.length;i++){
-			if(arr[i]<root){
+		for(int j = i;j < end;j++){
+			if(arr[j]<arr[end]){
 				return false;
 			}
 		}
-		for(int i = 0;i<min;i++){
-			if(arr[i]>root){
-				return false;
-			}
-		}
-		boolean leftChild = true;
-		boolean rightChild = true;
-		if(min > 0){
-			int[] left = Arrays.copyOf(arr, min);
-			leftChild = VerifySquenceOfBST(left);
-		}
-		if(min < arr.length - 1){
-			int[] right = Arrays.copyOfRange(arr, min,arr.length-min+1);
-			rightChild = VerifySquenceOfBST(right);
-		}
-		return leftChild&&rightChild;
+		return judge(arr,start,i-1) && judge(arr,i,end-1);
 	}
 	
 	public static void main(String[] args){
 		Main m = new Main();
-//		int[] sequence = {4,8,6,12,16,14,10};
-		int[] sequence = {1};
+//		int[] sequence = {4,8,6,12,16};
+		int[] sequence = {5,4,3,2,1};
+//		int[] sequence = {1};
 		System.out.println(m.VerifySquenceOfBST(sequence));
 	}
 }
