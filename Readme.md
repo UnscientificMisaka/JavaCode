@@ -31,5 +31,6 @@
 26. [后序遍历序列判断搜索树](./src/IsBinarySearchTree/Main.java)
 27. [二叉树中和为某值的路径](./src/BinaryTreePath/Main.java) 看了参考答案...唉
 28. [复制复杂链表](./src/ComplexLinkedList/Main.java) 不会entryset遍历哈希桥接
+29. [二叉搜索树转双向链表](./src/BinarySearchTreeToLinkedList/Main.java) 二叉树这种东西太适合递归了
 
 持续更新中...
