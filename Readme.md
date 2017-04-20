@@ -33,6 +33,7 @@
 28. [复制复杂链表](./src/ComplexLinkedList/Main.java) 不会entryset遍历哈希桥接
 29. [二叉搜索树转双向链表](./src/BinarySearchTreeToLinkedList/Main.java) 二叉树这种东西太适合递归了
 30. [字符串的排列](./src/StringRank/Main.java) 
-31. [数组中超过的一半版本](./src/NumCountHigherThanArrayHalfLength/Main.java) 表示只能想到排序后计数的解法，日后补上快排版本
+31. [数组中超过的一半版本](./src/NumCountHigherThanArrayHalfLength/Main.java) 表示只能想到排序后计数的解法
+32. [最小k的个数](./src/TheMinNumberCount/Main.java) 快排一下
 
 持续更新中...
