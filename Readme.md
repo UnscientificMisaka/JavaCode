@@ -37,5 +37,7 @@
 32. [最小k的个数](./src/TheMinNumberCount/Main.java) 快排一下
 33. [最大子数组的和](./src/SumOfChildArray/Main.java) 题目有点岑人，看了半天恍然这不就是最简单的dp嘛
 34. [1出现的个数](./src/CountNumberOne/Main.java) 没循环取余计数，转成字符数组匹配1了，应该用stringBuffer更升内存但是不知道再怎么调toCharArray转成字符
+35. [把数组排成最小的数](./src/GetMaxByCombineArrayItem/Main.java) 别人家孩子的思路真是太赞了！好扎心
+36. [丑数](./src/UglyNumber/Main.java) O(n^2)的复杂度运行超时，果然还是要发现规律
 
 持续更新中...
