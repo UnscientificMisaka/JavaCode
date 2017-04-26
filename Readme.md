@@ -40,5 +40,8 @@
 35. [把数组排成最小的数](./src/GetMaxByCombineArrayItem/Main.java) 别人家孩子的思路真是太赞了！好扎心
 36. [丑数](./src/UglyNumber/Main.java) O(n^2)的复杂度运行超时，果然还是要发现规律
 37. [第一个只出现一次的字符](./src/FirstOnlyAppearOnceChar/Main.java) 中规中矩用HashMap
+38. [数组中的逆序对](./src/InvertedCoupleInArray/Main.java) 除了暴力完全不会想到归并排序
+39. [链表第一个公共节点](./src/FIrstPublicNode/Main.java)
+40. [二叉树最大深度](./src/BinaryTreeDepth/Main.java)
 
 持续更新中...
