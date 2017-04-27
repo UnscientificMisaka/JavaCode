@@ -43,5 +43,6 @@
 38. [数组中的逆序对](./src/InvertedCoupleInArray/Main.java) 除了暴力完全不会想到归并排序
 39. [链表第一个公共节点](./src/FIrstPublicNode/Main.java)
 40. [二叉树最大深度](./src/BinaryTreeDepth/Main.java)
+41. [数组中数字出现次数](./src/CountNumInOrderArray/Main.java) 有序数组二分查找循环和递归两种还是会写的
 
 持续更新中...
