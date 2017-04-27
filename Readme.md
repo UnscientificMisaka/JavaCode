@@ -44,5 +44,6 @@
 39. [链表第一个公共节点](./src/FIrstPublicNode/Main.java)
 40. [二叉树最大深度](./src/BinaryTreeDepth/Main.java)
 41. [数组中数字出现次数](./src/CountNumInOrderArray/Main.java) 有序数组二分查找循环和递归两种还是会写的
+42. [判断二叉平衡树](./src/IsBalanceBinaryTree/Main.java) 
 
 持续更新中...
