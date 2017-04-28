@@ -45,5 +45,7 @@
 40. [二叉树最大深度](./src/BinaryTreeDepth/Main.java)
 41. [数组中数字出现次数](./src/CountNumInOrderArray/Main.java) 有序数组二分查找循环和递归两种还是会写的
 42. [判断二叉平衡树](./src/IsBalanceBinaryTree/Main.java) 
+43. [数组中只出现一次的数字](./src/FindNumsAppearOnce/Main.java) 压根就想不到异或这玩意
+
 
 持续更新中...
