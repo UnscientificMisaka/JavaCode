@@ -52,6 +52,5 @@
 47. [扑克牌顺子](./src/isContinuous/Main.java)
 48. [最后剩下的](./src/lastRemaining/Main.java) 经典约瑟夫环问题
 49. [数组中重复的数字](./src/DuplicateNumInArray)
-50. [求和](./src/GetSumWithoutKeywords/Main.java) 说真的想不到不用关键字求和
-51. [构建乘积数组](./src/BuildMultiplyArray/Main.java) 从两头开始的思想很棒
+50. [求和](./src/GetSumWithoutKeywords) 说真的想不到不用关键字求和
 持续更新中...
