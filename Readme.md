@@ -54,4 +54,6 @@
 49. [数组中重复的数字](./src/DuplicateNumInArray)
 50. [求和](./src/GetSumWithoutKeywords/Main.java) 说真的想不到不用关键字求和
 51. [构建乘积数组](./src/BuildMultiplyArray/Main.java) 从两头开始的思想很棒
+52. [字符流中第一个不重复的字符](./src/StringBufferFIrstUnrepeatedChar/Main.java)
+53. [链表中环的入口节点](./src/EntryNodeofLoop/Main.java)
 持续更新中...
