@@ -56,4 +56,6 @@
 51. [构建乘积数组](./src/BuildMultiplyArray/Main.java) 从两头开始的思想很棒
 52. [字符流中第一个不重复的字符](./src/StringBufferFIrstUnrepeatedChar/Main.java)
 53. [链表中环的入口节点](./src/EntryNodeofLoop/Main.java)
+54. [删除链表中重复节点](./src/DeleteDuplication/Main.java) 设置头节点再劈开一个分支实在太机智了  
+
 持续更新中...
