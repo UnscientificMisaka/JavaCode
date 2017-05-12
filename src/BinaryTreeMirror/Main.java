@@ -59,10 +59,7 @@ public class Main {
 		}
 	}
 	
-	public void useStackMirror(TreeNode root){
-		Stack<Integer> stack = new Stack<Integer>();
-		
-	}
+	
 	
 	public static void main(String[] args){
 		Main m = new Main();
