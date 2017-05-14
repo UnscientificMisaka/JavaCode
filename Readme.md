@@ -57,6 +57,7 @@
 52. [字符流中第一个不重复的字符](./src/StringBufferFIrstUnrepeatedChar/Main.java)
 53. [链表中环的入口节点](./src/EntryNodeofLoop/Main.java)
 54. [删除链表中重复节点](./src/DeleteDuplication/Main.java) 设置头节点再劈开一个分支实在太机智了
-55. [对称的二叉树](./src/isBinaryTreeMirror/Main.java)   
+55. [对称的二叉树](./src/isBinaryTreeMirror/Main.java)
+56. [Z形打印二叉树](./src/PrintBinaryTree/Main.java) 最近做vue的项目做题时间大大减少   
 
 持续更新中...
