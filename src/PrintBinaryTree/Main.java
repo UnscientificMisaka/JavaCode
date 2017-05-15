@@ -1,5 +1,6 @@
 package PrintBinaryTree;
-// z形打印二叉树
+//z形打印二叉树
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Stack;
 
@@ -60,8 +61,37 @@ public class Main {
 		}
 		return res;
     }
-	
-	
+	// 换行打印二叉树
+	public ArrayList<ArrayList<Integer>> Print2(TreeNode root) {
+		ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
+		ArrayDeque<TreeNode> q = new ArrayDeque<TreeNode>();
+		if(root == null){
+			return res;
+		}
+		
+		q.add(root);
+		TreeNode last = root;
+		TreeNode nlast = null;
+		ArrayList<Integer> tmp = new ArrayList<Integer>();
+		while(!q.isEmpty()){
+			TreeNode cur = q.remove();
+			tmp.add(cur.val);
+			if(cur.left != null){
+				q.add(cur.left);
+				nlast = cur.left;
+			}
+			if(cur.right != null){
+				q.add(cur.right);
+				nlast = cur.right;
+			}
+			if(cur == last){
+				res.add(tmp);
+				last = nlast;
+				tmp = new ArrayList<Integer>();
+			}
+		}
+		return res;
+	}
 	
 	public static void main(String[] args){
 		TreeNode first = new TreeNode(1);
