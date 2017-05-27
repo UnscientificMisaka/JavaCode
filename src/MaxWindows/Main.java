@@ -47,7 +47,7 @@ public class Main {
 			start = i - size + 1;
 			if(q.isEmpty()){
 				q.add(i);
-			}else if(start > q.peekFirst()){//判断滑动一次后把最大值划出去
+			}else if(start > q.peekFirst()){//?ж??????κ???????????
 				q.pollFirst();
 			}
 			
