@@ -1,5 +1,7 @@
 package LongestSubstringWithoutRepeatingCharacter;
 
+import java.util.HashMap;
+
 //Given a string, find the length of the longest substring without repeating characters.
 //
 //Examples:
@@ -17,12 +19,24 @@ package LongestSubstringWithoutRepeatingCharacter;
 
 public class Main {
 	
-	public String find(String str){
-		String res = "";
+	public int find(String str){
+		if(str.length() == 0){
+			return 0;
+		}
+		HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+		int res = 0;
+		int flag = 0;
+		for(int i = 0; i < str.length(); i++){
+			if(map.containsKey(str.charAt(i))){
+				flag = Math.max(map.get(str.charAt(i)) + 1, flag);
+			}
+			map.put(str.charAt(i), i);
+			res = Math.max(i - flag + 1 , res);
+		}
 		return res;
 	}
 	
 	public static void main(String[] args){
-		System.out.println(new Main().find("abcabcbb"));
+		System.out.println(new Main().find("abcabd"));
 	}
 }
