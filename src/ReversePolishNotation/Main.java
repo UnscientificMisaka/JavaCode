@@ -32,10 +32,37 @@ public class Main {
 		}
 		return 0;
 	}
+	
+	public int handle(int a, int b, String operator){
+		if("+".equals(operator)) return a+b;
+		if("-".equals(operator)) return a-b;
+		if("*".equals(operator)) return a*b;
+		if("/".equals(operator)){
+			if(a == 0){
+				return 0;
+			}
+			return a/b;
+		} 
+		return 0;
+	}
+	
+	
 // 逆波兰转中序表达式
 	public int evalRPN(String[] tokens){
-		int result = 0;
-		return result;
+		Stack<Integer> s = new Stack<Integer>();
+		int i = 0;
+		while(i < tokens.length){
+			try{
+				int tmp = Integer.parseInt(tokens[i]);
+				s.push(tmp);
+			}catch(Exception e){
+				int a = s.pop();
+				int b = s.pop();
+				s.push(handle(b,a,tokens[i]));
+			}
+			i++;
+		}
+		return s.pop();
 	}
 	
 //	中序表达式转逆波兰式
@@ -102,8 +129,9 @@ public class Main {
 	
 	public static void main(String[] args){
 		Main m = new Main();
-		String[] tokens = {"2", "1", "+", "3", "*"};
+		String[] tokens = {"4", "3", "-"};
 		String[] _tokens = {"(","2", "+", "1", ")","*", "3"};
-		System.out.println(m.evalNormal(_tokens));
+//		System.out.println(m.evalNormal(_tokens));
+		System.out.println(m.evalRPN(tokens));
 	}
 }
